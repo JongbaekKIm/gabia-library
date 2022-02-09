@@ -24,4 +24,6 @@
 ### 1) H2 DB활용 테스트 확인
 ![image](https://user-images.githubusercontent.com/84068193/153156913-dc8f0cfa-732a-493c-9c93-caadbea092fb.png)
 테이블이 자동생성되는 것은 확인되나 실제 DB쿼리문 확인시 테이블은 물론 DATABASE까지 존재하는지를 모르겠음..
+![image](https://user-images.githubusercontent.com/84068193/153158928-6cafeb42-9237-451c-a3fb-ab8763b439b8.png)
+postman 활용 소스코드 내에 지정된 파라미터를 넣어도 확인이 되지않음..
 ### 2) mysql로 설정하여 확인하려 하였으나 jdbc가 무조건 h2로 연결되는 문제가 있음. 해결하지 못함...
