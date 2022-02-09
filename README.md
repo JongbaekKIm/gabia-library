@@ -9,10 +9,17 @@
 ![스크린샷(1)](https://user-images.githubusercontent.com/84068193/153155063-65335df4-36f0-4e16-824c-e0315344ec49.png)<br/>
 ### 2) 프로젝트 내부설정도 동기화 진행<br/>
 ![image](https://user-images.githubusercontent.com/84068193/153155374-e865f812-bb2c-45d4-b285-a36014bd9b7e.png)
+### 3) zookipper 서버 구축
+![image](https://user-images.githubusercontent.com/84068193/153156447-ca5be7a6-f221-4ac2-b3cf-0f84b81cdcd1.png)
+### 4) kafka 서버 구축
+![image](https://user-images.githubusercontent.com/84068193/153156390-a73dec72-e158-4c92-86dd-8424ee62f73a.png)
+### 5) 모든 API 서버 실행시 Eureka 접근 확인
+![image](https://user-images.githubusercontent.com/84068193/153156580-c014e532-1247-461d-a86b-7935f47f3495.png)
+
 
 ## 2. book-request-service 내부 네이버 검색 API 설정 초기화<br/>
 ![image](https://user-images.githubusercontent.com/84068193/153155763-3e0469e7-87a8-409d-aa93-5113546902ac.png)<br/>
 
 ## 3. 각 API의 application.yml 내에 mysql로 변경
 ### 1) 결론은 실패...
-### 2) 
+### 2) H2 database 기존 연결방법 활용
