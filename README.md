@@ -23,9 +23,9 @@
 ## 3. 각 API의 datasource 연결 확인(실패)
 ### 1) H2 DB활용 테스트 확인
 ![image](https://user-images.githubusercontent.com/84068193/153156913-dc8f0cfa-732a-493c-9c93-caadbea092fb.png)<br/>
-테이블이 자동생성되는 것은 확인되나 실제 DB쿼리문 확인시 테이블은 물론 DATABASE까지 존재하는지를 모르겠음..
+테이블이 자동생성되는 것은 확인되나 실제 DB쿼리문 확인시 테이블은 물론 DATABASE까지 존재하는지를 모르겠음..<br/>
 ![image](https://user-images.githubusercontent.com/84068193/153158928-6cafeb42-9237-451c-a3fb-ab8763b439b8.png)<br/>
-postman 활용 소스코드 내에 지정된 파라미터를 넣어도 확인이 되지않음..(해결완료 2월10일)
+postman 활용 소스코드 내에 지정된 파라미터를 넣어도 확인이 되지않음..(해결완료 2월10일)<br/>
 --------------------------------------------------------------------------------------------------------------------------
 ### 내용추가(02월10일목)
 ![image](https://user-images.githubusercontent.com/84068193/153375859-ba98d8a7-26e7-4c66-83d6-1f2be13f6e85.png)<br/>
