@@ -22,7 +22,7 @@
 
 ## 3. 각 API의 datasource 연결 확인(실패)
 ### 1) H2 DB활용 테스트 확인
-![image](https://user-images.githubusercontent.com/84068193/153156913-dc8f0cfa-732a-493c-9c93-caadbea092fb.png)
+![image](https://user-images.githubusercontent.com/84068193/153156913-dc8f0cfa-732a-493c-9c93-caadbea092fb.png)<br/>
 테이블이 자동생성되는 것은 확인되나 실제 DB쿼리문 확인시 테이블은 물론 DATABASE까지 존재하는지를 모르겠음..
 ![image](https://user-images.githubusercontent.com/84068193/153158928-6cafeb42-9237-451c-a3fb-ab8763b439b8.png)<br/>
 postman 활용 소스코드 내에 지정된 파라미터를 넣어도 확인이 되지않음..(해결완료 2월10일)
@@ -31,8 +31,8 @@ postman 활용 소스코드 내에 지정된 파라미터를 넣어도 확인이
 ![image](https://user-images.githubusercontent.com/84068193/153375859-ba98d8a7-26e7-4c66-83d6-1f2be13f6e85.png)<br/>
 @ResuestBody 는 Params가 아닌 Body로 전송해야됨.
 ![image](https://user-images.githubusercontent.com/84068193/153375758-c14c8d06-f33c-421f-8a9a-9e24fe161cb6.png)<br/>
-<위 사진은 전송정보>
+<위 사진은 전송정보><br/>
 ![image](https://user-images.githubusercontent.com/84068193/153376153-eb650092-d809-4e13-be90-2b7590751d57.png)<br/>
-<아래 사진은 결과정보>
+<아래 사진은 결과정보><br/>
 ### 2) mysql로 설정하여 확인하려 하였으나 jdbc가 무조건 h2로 연결되는 문제가 있음. 해결하지 못함...
 #### 추가!! 원인 : h2 DB는 메모리형 저장소인 것을 인지 하였으나 접근주소에 대해 파악중...
