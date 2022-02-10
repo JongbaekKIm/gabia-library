@@ -33,6 +33,6 @@ postman 활용 소스코드 내에 지정된 파라미터를 넣어도 확인이
 ![image](https://user-images.githubusercontent.com/84068193/153375758-c14c8d06-f33c-421f-8a9a-9e24fe161cb6.png)<br/>
 <위 사진은 전송정보>
 ![image](https://user-images.githubusercontent.com/84068193/153376153-eb650092-d809-4e13-be90-2b7590751d57.png)<br/>
-<위 사진은 결과정보>
+<아래 사진은 결과정보>
 ### 2) mysql로 설정하여 확인하려 하였으나 jdbc가 무조건 h2로 연결되는 문제가 있음. 해결하지 못함...
 #### 추가!! 원인 : h2 DB는 메모리형 저장소인 것을 인지 하였으나 접근주소에 대해 파악중...
